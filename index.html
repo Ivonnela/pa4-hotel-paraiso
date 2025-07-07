@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Paraíso</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+    <div class="grid-container">
+        <header>
+            <h1 class="titulo-animado">Bienvenido al Hotel Paraíso</h1>
+        </header>
+
+        <section class="banner">
+            <div id="banner">
+                <img src="img/banner1.jpg" alt="Banner 1">
+                <img src="img/banner2.jpg" alt="Banner 2">
+                <img src="img/banner3.jpg" alt="Banner 3">
+            </div>
+        </section>
+
+        <main class="contenido">
+            <div class="columna">
+                <h2>Habitaciones</h2>
+                <p>Habitaciones cómodas y modernas para tu descanso.</p>
+                <img src="img/habitacion.jpg" alt="Habitación">
+            </div>
+            <div class="columna">
+                <h2>Piscina</h2>
+                <p>Relájate en nuestra piscina y spa frente al mar.</p>
+                <img src="img/piscina.jpg" alt="Piscina">
+            </div>
+            <div class="columna">
+                <h2>Regístrate</h2>
+                <p>Reserva tu estadía con nosotros llenando el siguiente formulario:</p>
+                <form>
+                    <div>
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div><button type="submit">Reservar</button></div>
+                </form>
+            </div>
+        </main>
+
+        <footer>
+            <p>Dirección: Calle del Sol 123, Ciudad Paraíso</p>
+            <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i>Facebook</a> | 
+            <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i>Instagram</a> | 
+            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i>Twitter</a>
+        </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
